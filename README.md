@@ -3,8 +3,10 @@ sublimetext3_gcc_builder
 
 gcc c system builder for sublime text 3
 
-allows you to quickly compile and test c programs very useful for tests
+allows you to quickly compile and test c programs
+
 gives options to compile with other c files and options to have argvs to be run with the program
+
 seperate config files for each project/ location for c files( all project files have to be in the same folder)
 
 works with xfce-terminal with default config but it will work with gnome-terminal if you change all of  the 'xfce-terminal' to 'gnome-terminal' in the c.sublime-build file
