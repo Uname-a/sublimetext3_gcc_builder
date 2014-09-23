@@ -1,14 +1,14 @@
 {
 	
 	"selector": "source.c",
-	"shell_cmd": "xfce4-terminal -T build  -e sh -x ~/.config/sublime-text-3/Packages/User/build.sh $file $file_base_name $file_path" ,
+	"shell_cmd": "xfce4-terminal   -e sh -x ~/.config/sublime-text-3/Packages/User/build.sh $file $file_base_name $file_path" ,
 
 	"variants": [
 
         
 
         { "name": "Run",
-          "shell_cmd": "xfce4-terminal -T build  -e sh -x ~/.config/sublime-text-3/Packages/User/buildrun.sh $file $file_base_name $file_path" 
+          "shell_cmd": "xfce4-terminal  -e sh -x ~/.config/sublime-text-3/Packages/User/buildrun.sh $file $file_base_name $file_path" 
         }
     ]
 
