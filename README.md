@@ -10,6 +10,7 @@ seperate config files for each project/ location for c files( all project files 
 works with xfce-terminal with default config but it will work with gnome-terminal if you change all of  the 'xfce-terminal' to 'gnome-terminal' in the c.sublime-build file
 
 INTRUCTIONS:
+
 place all the files into your ~/.config/sublime-text-3/Packaes/User/ folder
 
 run 'build' or use the default key combination 'ctrl+b' to set how you want the program to be compiled ( it also will do an intial compile and run)
