@@ -13,7 +13,7 @@ gcc -g -Wall $1 ${build[@]} -o $2
 touch .buildconfig
 printf "%s " "${build[@]}" > .buildconfig
 input=()
-echo "enter argvsto be run with, leave blank if none, then press enter:"
+echo "enter argvs to be run with, leave blank if none, then press enter:"
 read -a input
 echo
 touch .buildargv
