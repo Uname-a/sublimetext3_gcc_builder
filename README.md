@@ -9,7 +9,7 @@ gives options to compile with other c files and options to have argvs to be run 
 
 seperate config files for each project / location for c files( all project files have to be in the same folder)
 
-works with xfce-terminal with default config but it will work with gnome-terminal if you uncomment the gnome-terminal version and comment out the xfce-terminal version
+works with xterm with default config but it will work with gnome-terminal or xfce-terminal if you want to choose the terminal you want to use uncomment the one you want and comment out all others for both the build and run sections.
 
 INTRUCTIONS:
 
