@@ -7,9 +7,9 @@ allows you to quickly compile and test c programs
 
 gives options to compile with other c files and options to have argvs to be run with the program
 
-seperate config files for each project/ location for c files( all project files have to be in the same folder)
+seperate config files for each project / location for c files( all project files have to be in the same folder)
 
-works with xfce-terminal with default config but it will work with gnome-terminal if you change all of  the 'xfce-terminal' to 'gnome-terminal' in the c.sublime-build file
+works with xfce-terminal with default config but it will work with gnome-terminal if you uncomment the gnome-terminal version and comment out the xfce-terminal version
 
 INTRUCTIONS:
 
