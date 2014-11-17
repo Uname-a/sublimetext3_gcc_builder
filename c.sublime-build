@@ -4,8 +4,8 @@
 	//uncommented the one you use make sure only one is uncommented
 		//"shell_cmd": "xfce4-terminal    -x ~/.config/sublime-text-3/Packages/User/build.sh $file $file_base_name $file_path" ,
 		//"shell_cmd": "gnome-terminal    -x ~/.config/sublime-text-3/Packages/User/build.sh $file $file_base_name $file_path" ,
-		"shell_cmd": "xterm   -e ~/.config/sublime-text-3/Packages/User/build.sh $file $file_base_name $file_path" ,
-
+		//"shell_cmd": "xterm   -e ~/.config/sublime-text-3/Packages/User/build.sh $file $file_base_name $file_path" ,
+		"shell_cmd": "konsole   -e ~/.config/sublime-text-3/Packages/User/build.sh $file $file_base_name $file_path" ,
 	"variants": [
 
         
@@ -14,8 +14,8 @@
         //uncommit the one you use make sure only one is uncommented
           	//"shell_cmd": "xfce4-terminal -x ~/.config/sublime-text-3/Packages/User/buildrun.sh $file $file_base_name $file_path" 
             //"shell_cmd": "gnome-terminal  -x ~/.config/sublime-text-3/Packages/User/buildrun.sh $file $file_base_name $file_path" 
-          	"shell_cmd": "xterm  -e ~/.config/sublime-text-3/Packages/User/buildrun.sh $file $file_base_name $file_path" 
-
+          	//"shell_cmd": "xterm  -e ~/.config/sublime-text-3/Packages/User/buildrun.sh $file $file_base_name $file_path" ,
+          	"shell_cmd": "konsole   -e ~/.config/sublime-text-3/Packages/User/buildrun.sh $file $file_base_name $file_path" ,
         }
     ]
 
